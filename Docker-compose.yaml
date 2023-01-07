@@ -23,6 +23,12 @@ services:
       - POSTGRES_PASSWORD=deraltewurfeltnicht1028
     depends_on:
       - db
+  react:
+    image: lottery-front
+    ports:
+      - '80:80'
+    depends_on:
+      - app
   proxy:
     build:
       context: ./proxy
