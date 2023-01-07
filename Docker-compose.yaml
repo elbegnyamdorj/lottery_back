@@ -21,6 +21,8 @@ services:
       - POSTGRES_NAME=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=deraltewurfeltnicht1028
+    ports:
+      - '8080:8080'
     depends_on:
       - db
   react:
