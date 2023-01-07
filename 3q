@@ -1,0 +1,59 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .dockerignore
+#	new file:   Docker-compose.yaml
+#	new file:   README.md
+#	new file:   app/db.sqlite3
+#	new file:   app/lottery/__init__.py
+#	new file:   app/lottery/__pycache__/__init__.cpython-39.pyc
+#	new file:   app/lottery/__pycache__/admin.cpython-39.pyc
+#	new file:   app/lottery/__pycache__/apps.cpython-39.pyc
+#	new file:   app/lottery/__pycache__/models.cpython-39.pyc
+#	new file:   app/lottery/__pycache__/serializers.cpython-39.pyc
+#	new file:   app/lottery/__pycache__/urls.cpython-39.pyc
+#	new file:   app/lottery/__pycache__/views.cpython-39.pyc
+#	new file:   app/lottery/admin.py
+#	new file:   app/lottery/apps.py
+#	new file:   app/lottery/migrations/0001_initial.py
+#	new file:   app/lottery/migrations/0002_alter_lottery_date.py
+#	new file:   app/lottery/migrations/0003_alter_lottery_date.py
+#	new file:   app/lottery/migrations/0004_alter_lottery_plate_number.py
+#	new file:   app/lottery/migrations/0005_alter_lottery_lottery_number.py
+#	new file:   app/lottery/migrations/__init__.py
+#	new file:   app/lottery/migrations/__pycache__/0001_initial.cpython-39.pyc
+#	new file:   app/lottery/migrations/__pycache__/0002_alter_lottery_date.cpython-39.pyc
+#	new file:   app/lottery/migrations/__pycache__/0002_auto_20211110_2354.cpython-39.pyc
+#	new file:   app/lottery/migrations/__pycache__/0003_alter_lottery_date.cpython-39.pyc
+#	new file:   app/lottery/migrations/__pycache__/0003_alter_lottery_lottery_number.cpython-39.pyc
+#	new file:   app/lottery/migrations/__pycache__/0004_alter_lottery_plate_number.cpython-39.pyc
+#	new file:   app/lottery/migrations/__pycache__/__init__.cpython-39.pyc
+#	new file:   app/lottery/models.py
+#	new file:   app/lottery/serializers.py
+#	new file:   app/lottery/tests.py
+#	new file:   app/lottery/urls.py
+#	new file:   app/lottery/views.py
+#	new file:   app/manage.py
+#	new file:   app/mysite/__init__.py
+#	new file:   app/mysite/__pycache__/__init__.cpython-39.pyc
+#	new file:   app/mysite/__pycache__/settings.cpython-39.pyc
+#	new file:   app/mysite/__pycache__/urls.cpython-39.pyc
+#	new file:   app/mysite/__pycache__/wsgi.cpython-39.pyc
+#	new file:   app/mysite/asgi.py
+#	new file:   app/mysite/settings.py
+#	new file:   app/mysite/urls.py
+#	new file:   app/mysite/wsgi.py
+#	new file:   app/scripts/__pycache__/load_lottery.cpython-39.pyc
+#	new file:   app/scripts/load_lottery.py
+#	new file:   proxy/Dockerfile
+#	new file:   proxy/default.conf
+#	new file:   proxy/uwsgi_params
+#	new file:   requirements.txt
+#	new file:   scripts/entrypoint.sh
+#

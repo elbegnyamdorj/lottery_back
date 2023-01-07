@@ -1,0 +1,36 @@
+version: '3.7'
+
+services:
+  db:
+    image: postgres
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=lottery
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=deraltewurfeltnicht1028
+    # restart: always
+  app:
+    build:
+      context: .
+    volumes:
+      - static_data:/vol/web
+    environment:
+      - SECRET_KEY=hbkblkblkhjb
+      - ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0,172.28.0.1,
+      - POSTGRES_NAME=lottery
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=deraltewurfeltnicht1028
+    depends_on:
+      - db
+  proxy:
+    build:
+      context: ./proxy
+    volumes:
+      - static_data:/vol/static
+    ports:
+      - '8080:8080'
+    depends_on:
+      - app
+volumes:
+  static_data:
