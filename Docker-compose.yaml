@@ -9,7 +9,7 @@ services:
       - POSTGRES_DB=lottery
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=deraltewurfeltnicht1028
-    restart: always
+    # restart: always
   app:
     build:
       context: .
