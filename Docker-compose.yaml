@@ -17,7 +17,7 @@ services:
       - static_data:/vol/web
     environment:
       - SECRET_KEY=hbkblkblkhjb
-      - ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0,172.28.0.1,
+      - ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0,172.28.0.1,103.168.56.72
       - POSTGRES_NAME=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=deraltewurfeltnicht1028
